@@ -3,8 +3,9 @@
  * @return {number}
  */
 var longestConsecutive = function(nums) {
-    const set = new Set(nums);
+    if(!nums.length || !nums) return 0;
     
+    const set = new Set(nums);
     let longestStreak = 0;
     
     for(let i = 0; i < nums.length; i++) { 
