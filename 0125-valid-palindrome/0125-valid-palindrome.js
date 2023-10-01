@@ -4,19 +4,9 @@
  */
 
 var isPalindrome = function(s) {
-    let str = '';
+    const validRegex = /[^a-zA-Z0-9]/g;
     
-    s.split("").forEach((eachS)=> {
-        const upperRegex = /[A-Z]/g;
-        const lowerAndNumberRegex = /[a-z0-9]/g;
-        
-        if(upperRegex.test(eachS)) {
-            str += eachS.toLowerCase();
-        }
-        else if(lowerAndNumberRegex.test(eachS)) {
-            str += eachS
-        }
-    })
+    s = s.replaceAll(validRegex, '').toLowerCase();
     
-    return str.split("").reverse().join("") === str
+    return s === s.split('').reverse().join('');
 };
