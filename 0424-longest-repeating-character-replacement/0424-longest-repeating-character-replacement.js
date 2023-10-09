@@ -6,9 +6,10 @@
 // 같은문자열이 최대 몇번 연속으로 나올 수 있는 지
 // map 통해서 카운팅을 한다치자..
 // k번 바꿀수가 있다고 하니 흐으음.. 
-//start와 end가 같으면 end계쏙 증가
-//start가 end와 다르면 k 만큼 변경해보고 증가
 // k가 다 소모되면 start를 변경했던지점으로 돌아가기 
+// 윈도우를 조절하며 지금껏 나온 최대 빈도수의 중복되는 값의 빈도수를 max로 저장해놓자
+// 이때 윈도우 길이 - max(빈도수) 가 k보다 크면 이미 유효하지 않은 상태이므로 start를 한단계 올려주자.
+
 var characterReplacement = function(s, k) {
     let start = 0, end = 0;
     let max = 0;
