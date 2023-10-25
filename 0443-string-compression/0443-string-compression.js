@@ -6,45 +6,28 @@
 // ["a","b"] 인 경우 카운터가 애매해지네 ..
 var compress = function(chars) {
     let start = 0, 
-        end = 0, 
-        s = '', 
-        checker = '';
+        end = 0;
     
     while(end < chars.length) {
-        checker = chars[start];
+        let count = 0;
+        let curr = chars[end];
         
-        if(checker !== chars[end]) {
-            const count = end - start;
+        while(chars[end] === curr) {
+            end++;
+            count++;
+        }
         
-            if(count > 1) {
-                s += checker + count;                     
-            } else {
-                s += checker;
+        chars[start] = curr;
+        start++;
+        
+        if(count > 1) {
+            for(let num of count.toString()) {
+                chars[start] = num;
+                start++;
             }
-            
-            //update checker and position
-            start = end;
-            checker = chars[end];
-            end = start + 1;
-        } else {
-            end++;        
         }
     }
     
-    //마지막 문자열 업데이트
-   const count = end - start;
-        
-    if(count > 1) {
-        s += checker + count;                     
-    } else {
-        s += checker;
-    }
-
-    //실제 문자열 업데이트
-    for(let i = 0; i < chars.length; i++) {
-        if(s[i]) chars[i] = s[i];
-        else chars[i] = '';
-    }
     
-    return s.length;
+    return start;
 };
