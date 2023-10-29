@@ -3,16 +3,17 @@
  * @param {string} t
  * @return {boolean}
  */
-// start, end // end < t.length;
-//
 var isSubsequence = function(s, t) {
-    if(s.length > t.length) return false;
-    let start = 0 , end = 0;
+  let ps = 0, pt = 0;
     
-    while(start < s.length && end < t.length) {
-        if(s[start] === t[end]) start++;
-        end++
+    while(ps < s.length && pt < t.length) {
+        
+        if(s[ps] === t[pt]) {
+            console.log('??', ps, pt)
+            ps++;
+        }
+        pt++;
     }
-    
-    return start === s.length;
+           
+    return ps === s.length;
 };
