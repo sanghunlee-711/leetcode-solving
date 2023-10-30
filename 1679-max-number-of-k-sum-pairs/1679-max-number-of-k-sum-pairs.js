@@ -30,18 +30,8 @@ var maxOperations = function(nums, k) {
     let start = 0, end = nums.length - 1;
     
     while(start < end) {
-        if(nums[start] === null) {
-            start++;
-        }
-        
-        if(nums[end] === null){
-            end--;
-        }
-        
         if(nums[start] + nums[end] === k) {    
             count++;
-            nums[end] = null;
-            nums[start] = null;
             start++;
             end--;
         } else if(nums[start] + nums[end] > k){
