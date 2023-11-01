@@ -5,13 +5,13 @@
  */
 var findMaxAverage = function(nums, k) {
     let subSum = 0;
+    let start = 0, end = k;
+    
     
     for(let i = 0; i < k; i++) {
         subSum += nums[i];
     }
     
-    
-    let start = 0, end = k;
     let maxSum = Math.max(-Infinity, subSum);
     
     while(end < nums.length) {
