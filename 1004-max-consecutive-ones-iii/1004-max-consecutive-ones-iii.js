@@ -14,34 +14,23 @@ end가 끝까지 갈때까지 진행!
 // [0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1]
 // 3
 
+//최대 윈도우 사이즈에서 줄일 이유가 없으므로 아래와 같이 모든 k가 소모되면 start만 한칸 올리고 k를 채워줌.
+
 var longestOnes = function(nums, k) {    
     // edge case
     if(k >= nums.length) return nums.length;
     
-    let temp = k;
     let start = 0, end = 0;
-    let subCount = 0;
-    let maxCount = 0;
     
     while(end < nums.length) {
-        if(nums[end] === 0 && temp === 0) {
-            start = start + 1;
-            end = start;
-            temp = k;
-            subCount = 0;   
-        }
-        
-        if(nums[end] === 0 && temp > 0) {
-            temp -= 1;
-            subCount +=1;
-        }
-        
-        if(nums[end] === 1) {
-            subCount +=1;
+        if(nums[end] === 0) k--;
+        if(k < 0) {
+            if(nums[start] === 0) k += 1;    
+            
+            start++;
         }
         
         end++;
-        maxCount = Math.max(maxCount, subCount);
     }
-    return maxCount;
+    return end - start;
 };
