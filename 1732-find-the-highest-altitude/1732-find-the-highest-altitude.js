@@ -10,14 +10,13 @@
 //위 식에서 alt배열에서 가장 큰값 찾으면 되는거네
 
 var largestAltitude = function(gain) {
-    const alt = Array.from({length: gain.lenght + 1},() => null);
     let max = 0;
-    alt[0] = 0;
+    let prevSum = 0;
     
     for(let i = 0; i < gain.length; i++) {
-        alt[i+1]  = alt[i] + gain[i];
+        prevSum  = prevSum + gain[i];
         
-        max = Math.max(alt[i+1], max);
+        max = Math.max(prevSum, max);
     }
     
     return max;
