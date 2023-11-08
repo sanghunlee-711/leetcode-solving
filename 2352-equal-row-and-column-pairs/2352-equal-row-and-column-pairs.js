@@ -16,10 +16,17 @@ var equalPairs = function(grid) {
         map.set(row, (map.get(row) || 0) + 1);
     }
     
-    for(let c = 0; c < grid[0].length; c++){
-        const col = grid.map((row)=> row[c]).join(",");
+    
+    
+    for(let r = 0; r < grid.length; r++){
+        const col = [];
         
-        count += (map.get(col) || 0);
+        for(let c = 0; c < grid[0].length; c++) {
+            col.push(grid[c][r]);
+        }
+        
+        const key = col.join(',');
+        count += (map.get(key) || 0);
     }
     
     return count; 
