@@ -8,13 +8,13 @@ class RecentCounter {
      */
     ping = function(t) {
       this.data.push(t);
-      const res = [];
+      let count = 0;
       
       this.data.forEach((p) => {
-          if(p >= t - 3000 && p <= t) res.push(p);
+          if(p >= t - 3000 && p <= t) count+=1;
       })
         
-      return res.length;
+      return count;
     };
 }
 
