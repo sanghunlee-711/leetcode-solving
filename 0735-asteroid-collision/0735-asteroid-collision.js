@@ -2,25 +2,22 @@
  * @param {number[]} asteroids
  * @return {number[]}
  */
-
-//충돌 되는 경우  --> <-- // 여기서 값이 같으면 사라짐 // 아니면 큰 것만 살아남음
-//충돌 되지 않는 경우 <-- <-- || --> --> || <-- -->
+// <-- <-- 충돌 x 
+// --> <-- 충돌
+// <-- --> 충돌 x
+// --> --> 충톨 x
 var asteroidCollision = function(asteroids) {
-  const stack = [];
+    const stack = [];
     
     for(let i = 0; i < asteroids.length; i++) {
-        const top = stack[stack.length - 1];
         const curr = asteroids[i];
+        const top = stack[stack.length - 1];
         
-        if(!stack.length) {
+        if(!stack.length || curr > 0 || top < 0) {
             stack.push(curr);
-        } else if(top < 0) {
-            stack.push(curr);
-        } else if (curr > 0) {
-            stack.push(curr);            
-        } else if(top + curr === 0) { // 같을땐 날려야함
-            stack.pop();
-        } else if(Math.abs(curr) > Math.abs(top)) {
+        }else if(curr + top === 0) {
+            stack.pop(); //둘다 안넣음
+        }else if(Math.abs(curr) > Math.abs(top)) {
             stack.pop();
             i--;
         }
