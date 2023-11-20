@@ -10,37 +10,21 @@
  * @return {ListNode}
  */
 
+//have two pointers(slow, fast)
+//fast move forward by 2nodes and slow by 1nodes
+// when fast reaches the end, slow reaches the half
 var deleteMiddle = function(head) {
     if(head.next === null) return null;
+    let slow = head, fast = head.next.next;
     
-    const size = getSize(head)   
-    const half = Math.floor(size / 2);
-    let curr = head;
-    let count = 0;
-    
-    
-    while(curr) {
-        count++;
-        
-        if(count === half) {
-            const next = curr.next.next;
-            curr.next = next;
-        }
-        
-        curr = curr.next;
+    while(fast && fast.next) {
+        slow = slow.next;
+        fast = fast.next.next;
     }
     
+    slow.next = slow.next.next; // remove
+    
     return head;
+    
 };
 
-const getSize = (node) => {
-        let size = 0;
-        let curr = node;
-        
-        while(curr) {
-            curr = curr.next;
-            size++;
-        }
-        
-        return size;
-}
