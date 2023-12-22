@@ -16,11 +16,9 @@
 const isSame = (arr1, arr2) => {
     if(arr1.length !== arr2.length) return false;
     
-    for(let i = 0; i < arr1.length; i++) {
-        if(arr1[i] !== arr2[i]) return false;
-    }
     
-    return true;
+    
+    return arr1.every((val1, i)=> val1 === arr2[i]);
 }
 
 const dfs = (node, arr) => {
