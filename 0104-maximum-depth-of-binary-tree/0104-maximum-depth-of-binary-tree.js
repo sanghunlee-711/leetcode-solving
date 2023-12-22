@@ -13,23 +13,17 @@
 var maxDepth = function(root) {
     let answer = 0;
     
-    if(!root) return answer;
-    
-    const dfs = (node, depth) => {
+    const dfs = (node, count) => {
         if(!node) return;
         
-        //leaf
         if(!node.left && !node.right) {
-            answer = Math.max(depth, answer);
-            return;
+            answer = Math.max(answer, count);
         }
         
-        // binary tree's maximum depth 
-        if(node.left) dfs(node.left, depth+1);
-        if(node.right) dfs(node.right, depth+1);
+        if(node.left) dfs(node.left, count+1);
+        if(node.right) dfs(node.right, count+1);
     }
     
-    //시작은 1
     dfs(root, 1);
     
     return answer;
