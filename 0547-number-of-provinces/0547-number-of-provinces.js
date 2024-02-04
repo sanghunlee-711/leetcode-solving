@@ -2,34 +2,31 @@
  * @param {number[][]} isConnected
  * @return {number}
  */
-//그러니까 연결된 것들끼리 그룹을 나누기 그룹의 개수를 리턴하라는 것 같은데
-// 그룹화를 어케해야하나 ..
-// 재귀로 넘어가서 확인화면 될 것 같긴한데.. 
-// 카운트는 처음에 모든 노드가 독립적이라 하고 그룹된 것을 빼서 반환
-// 동일한 노드는 재귀로 돌리 필요 없음
-const dfs = (node, isConnected, visit) => {
-    visit[node] = true;
+//check every node is visited for knowing province(that newly visitied);
+
+const dfs = (isConnected, i, visit) => {
+    visit[i] = true;
     
-    for(let i = 0; i < isConnected.length; i++) {
-        if(isConnected[node][i] === 1 && visit[i] === false) {
-            dfs(i, isConnected, visit);
+    for(let j = 0; j < isConnected.length; j++){
+        if(isConnected[i][j] === 1 && visit[j] === false) {
+            dfs(isConnected, j, visit);
         }
     }
+    
 }
 
-
-
 var findCircleNum = function(isConnected) {
-    let count = 0;
-    const len = isConnected.length;
-    const visit = Array.from({length: len}, () => false);
+    const len = isConnected.length,
+          visit = Array.from({length:len},()=>false); //initialize all the visit state is false;
+    let res = 0;
     
     for(let i = 0; i < len; i++) {
-        if(visit[i] === false) {
-            count += 1;
-            dfs(i, isConnected, visit);
-        }    
+        if(!visit[i]){
+            //count up if not visited case find
+            res+=1;
+            dfs(isConnected, i, visit)
+        }
     }
     
-    return count;
+    return res;
 };
