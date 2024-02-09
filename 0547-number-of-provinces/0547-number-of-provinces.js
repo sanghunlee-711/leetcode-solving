@@ -2,31 +2,27 @@
  * @param {number[][]} isConnected
  * @return {number}
  */
-function dfs (nodes, i, visit) {
-    visit[i] = true;
+
+function dfs (nodes, visited, i) {
+    visited[i] = true;
     
-    for(let j = 0; j < nodes.length; j++) {
-        //connected and not-visited
-        if(nodes[i][j] === 1 && !visit[j]) {
-            dfs(nodes, j, visit);
+    for(let j = 0; j < nodes.length; j++)  {
+        if(nodes[i][j] === 1 && !visited[j]) {
+            dfs(nodes, visited, j);
         }
     }
 }
 
-
 var findCircleNum = function(isConnected) {
-  const len = isConnected.length;
-  const visit = {};
+    const visited = {};
     let count = 0;
     
-    for(let i = 0; i < len; i++) {
-        if(!visit[i]) {
-            //when not visit => it may another group(provinces)
+    for(let i = 0; i < isConnected.length; i++) {
+        if(!visited[i]) {
             count+=1;
-            dfs(isConnected, i, visit);
+            dfs(isConnected, visited, i);
         }
     }
-    
     
     return count;
 };
