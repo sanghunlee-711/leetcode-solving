@@ -34,8 +34,6 @@ var minReorder = function(n, connections) {
         visited[position] = true;
         
         for(const connection of adj[position]) {
-            console.log(connection)
-            
             // 0 이라면 어차피 카운트 안올라가므로
             if(!visited[connection[0]]) count += connection[1];
             
