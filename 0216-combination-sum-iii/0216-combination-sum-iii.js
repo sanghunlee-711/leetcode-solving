@@ -5,7 +5,7 @@
  * @return void
  */
 const backtrack = (comb, k, combinations, remain, start) => {
-    // base case
+    // base case for backtrack
     if(comb.length === k && remain === 0) return combinations.push(comb);
     else if(remain < 0 || comb.length === k) return; //exceed scope;
     
