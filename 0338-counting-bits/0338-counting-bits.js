@@ -2,27 +2,19 @@
  * @param {number} n
  * @return {number[]}
  */
-//인데스 값을 2진수로 나타냈을 때 1의 개수네     
-//이거 나누기 2 하고 몫 + 나머지하면 되는 거 아닌가
-//짝수면 나누기 2의 몫
-//홀수면 나누기 2의 몫 + 1하면 되겠는데
-     
-var countBits = function(n) {
-    const answer = Array.from({length: n + 1},() => 0);
+const popCount = x => {
+    let count = 0;
     
-    answer[0] = 0;
-    
-    for(let idx = 0; idx <= n; idx++) {
-        const quotient = Math.floor(idx / 2);
-        const isEven = idx % 2 === 0;
-        
-        if(isEven) {
-            answer[idx] = answer[quotient];
-        }else {
-            answer[idx] = answer[quotient] + 1;
-        }
+    for(count = 0; x != 0; count++) {
+        x &= x - 1;
     }
-    
-    
-    return answer;
+    return count;
+}
+
+var countBits = function(n) {
+    const ans = Array.from({length: n + 1}, () => 0) ;
+    for(let i = 0; i <= n; ++i) {
+        ans[i] = popCount(i);
+    }
+    return ans;
 };
