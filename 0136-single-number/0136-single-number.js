@@ -2,23 +2,19 @@
  * @param {number[]} nums
  * @return {number}
  */
-// O(N) + S(1)
-// 합을 해야하나..
-// 공간 상수를 어케하징
-// 사실 S(N)으로 하면 금방할텐데
+// T.C:O(N) + S.C:O(1)
+/*
+ a XOR 0 = a
+ a XOR a = 0
+ a XOR b XOR a = a XOR a XOR b = 0 XOR b = b
+*/
+
 var singleNumber = function(nums) {
-    const map = new Map();
+    let answer = 0;
     
-    for(let i = 0; i < nums.length; i++) {
-        const curr = nums[i];
-        map.set(curr,(map.get(curr) || 0) + 1);
+    for(const num of nums) {
+        answer ^= num;
     }
-    
-    let answer = null;
-    
-    Array.from(map.entries()).forEach(([key,value]) => {
-        if(value === 1) answer = key; 
-    })
-    
+        
     return answer;
 };
