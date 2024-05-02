@@ -2,30 +2,27 @@
  * @param {number[]} nums
  * @return {number}
  */
-
 var longestSubarray = function(nums) {
-    let start = 0, 
-        end = 0,
-        deleteCount = 0,
-        max = 0,
-        isZeroExist = false;
+    let zeroCount = 0,
+        windowVolume = 0,
+        start = 0;
     
-    while(end < nums.length) {
-        if(!isZeroExist && (nums[start] === 0 || nums[end] === 0)) isZeroExist = true;
-        if(nums[end] === 0 && deleteCount === 1) {
-            if(nums[start] === 0) deleteCount = 0;
+    for(let i = 0; i < nums.length; i++) {
+        const curr = nums[i];
+        
+        if(curr === 0) zeroCount += 1;
+        
+        //modify window volume
+        while(zeroCount > 1) {
+            const startNum = nums[start];
+            
+            if(startNum === 0) zeroCount -= 1;
+            
             start++;
-            continue;
         }
         
-        if(nums[end] === 0 && deleteCount === 0) {
-            deleteCount = 1;
-        }
-        
-        max = Math.max(max, end - start + 1 - deleteCount);
-        end++;
-
+        windowVolume = Math.max(windowVolume, i - start);
     }
     
-    return isZeroExist ? max : nums.length - 1;
+    return windowVolume
 };
