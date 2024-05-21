@@ -9,22 +9,23 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-
-//have two pointers(slow, fast)
-//fast move forward by 2nodes and slow by 1nodes
-// when fast reaches the end, slow reaches the half
 var deleteMiddle = function(head) {
-    if(head.next === null) return null;
-    let slow = head, fast = head.next.next;
+    if(!head.next) return null;
+    let count = 0;
+    let p1 = head, p2 = head;
     
-    while(fast && fast.next) {
-        slow = slow.next;
-        fast = fast.next.next;
+    //길이
+    while(p1) {
+        count++;
+        p1 = p1.next;
     }
     
-    slow.next = slow.next.next; // remove
+    let middle = Math.floor(count / 2);
     
+    for(let i = 0; i < middle - 1; i++) {
+        p2 = p2.next;
+    }
+    
+    p2.next = p2.next.next;
     return head;
-    
 };
-
