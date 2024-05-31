@@ -11,30 +11,29 @@
  * @param {TreeNode} root2
  * @return {boolean}
  */
-//1. 리프꺼 모두 모아서 비교 ?
-
-const isSame = (arr1, arr2) => {
-    if(arr1.length !== arr2.length) return false;
+var leafSimilar = function(root1, root2) {
+    const stack1 = [root1],
+          stack2 = [root2],
+          leaf1 = [],
+          leaf2 = [];
     
-    
-    
-    return arr1.every((val1, i)=> val1 === arr2[i]);
-}
-
-const dfs = (node, arr) => {
-        if(!node) return;
-        if(!node.left && !node.right) arr.push(node.val);
+    while(stack1.length) {
+        const curr = stack1.pop();
         
-        if(node.left) dfs(node.left, arr);
-        if(node.right) dfs(node.right, arr);
-}
-
-const leafSimilar = function(root1, root2) {
-    let leaf1 = [],
-        leaf2 = [];
+        if(!curr.left && !curr.right) leaf1.push(curr.val);
+        if(curr.left) stack1.push(curr.left)
+        if(curr.right) stack1.push(curr.right)
+    }
     
-    dfs(root1, leaf1);
-    dfs(root2, leaf2);
-    console.log(leaf1, leaf2)
-    return isSame(leaf1, leaf2)
+    while(stack2.length) {
+        const curr = stack2.pop();
+        
+        if(!curr.left && !curr.right) leaf2.push(curr.val);
+        if(curr.left) stack2.push(curr.left)
+        if(curr.right) stack2.push(curr.right)
+    }
+    
+    if(leaf1.length !== leaf2.length) return false;
+    
+    return  leaf1.every((leaf, idx) => leaf === leaf2[idx]);
 };
