@@ -13,22 +13,26 @@
  */
 var pathSum = function(root, targetSum) {
     if(!root) return 0;
-    
-    const stack = [[root, 0, new Map([[0,1]])]];
     let count = 0;
+    const map = new Map();
     
-    while(stack.length) {
-        const [node, sumSofar, map] = stack.pop();
-        const nextSum = sumSofar + node.val;
+    const dfs = (node, sum) => {
+        if(!node) return null;
+        const newSum = node.val + sum;
         
-        const trackedSum = nextSum - targetSum;
-        if(map.has(trackedSum)) count += map.get(trackedSum);
+        if(newSum === targetSum) count++;
+        if(map.has(newSum - targetSum)) count += map.get(newSum - targetSum);    
         
-        map.set(nextSum, (map.get(nextSum) || 0) + 1)
+        map.set(newSum, (map.get(newSum) || 0) + 1)
         
-        if(node.right) stack.push([node.right, nextSum, new Map(map)]);
-        if(node.left) stack.push([node.left, nextSum, new Map(map)]);
+        if(node.left) dfs(node.left, newSum);
+        if(node.right) dfs(node.right, newSum);
+        
+        //backtracking
+        map.set(newSum, (map.get(newSum) || 0) - 1)
     }
+    
+    dfs(root, 0)
     
     return count;
 };
