@@ -2,17 +2,19 @@
  * @param {number[][]} triangle
  * @return {number}
  */
+
 var minimumTotal = function(triangle) {
-    const len = triangle.length;
+    const map = new Map();
 
-    //마지막 열 초기화
-    const dp = triangle[len - 1].slice();
+   const dfs = (x,y) => {
+    const key = `${x}-${y}`;
+    if(x >= triangle.length) return 0
+    if(map.has(key)) return map.get(key);
 
-    for(let row = len - 2; row >= 0; row--) {
-        for(let col = 0; col <= row; col++) {
-            dp[col] = triangle[row][col] + Math.min(dp[col], dp[col +1])
-        }
-    }
-    
-    return dp[0]
+    const res = triangle[x][y] + Math.min(dfs(x+1,y), dfs(x+1,y+1))
+    map.set(key, res)
+    return res;
+   }
+
+   return dfs(0,0) 
 };
