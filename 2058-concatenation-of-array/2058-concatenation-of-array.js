@@ -4,5 +4,11 @@
  */
 var getConcatenation = function(nums) {
     const len = nums.length;
-    return Array.from({length: len * 2}, (_,i) => nums[i % len]);
+    const res = new Array(2*len);
+    for(let i = 0; i < len; i++) {
+        res[i] = nums[i];
+        res[i+len] = nums[i];
+    }
+
+    return res
 };
