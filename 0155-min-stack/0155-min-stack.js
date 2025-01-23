@@ -10,9 +10,7 @@ var MinStack = function() {
  */
 MinStack.prototype.push = function(val) {
     this.stack.push(val);
-    let minVal = Math.min(val, this.minStack.length === 0 ? 
-                            val : 
-                            this.minStack[this.minStack.length - 1]);
+    let minVal = Math.min(val,this.minStack[this.minStack.length - 1] ?? val);
     this.minStack.push(minVal);
 };
 
