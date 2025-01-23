@@ -29,4 +29,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0027-remove-element) |
+## String
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0020-valid-parentheses) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
