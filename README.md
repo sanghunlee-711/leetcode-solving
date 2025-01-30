@@ -42,4 +42,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0155-min-stack](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0155-min-stack) |
+## Linked List
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0206-reverse-linked-list) |
+## Recursion
+|  |
+| ------- |
+| [0206-reverse-linked-list](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0206-reverse-linked-list) |
 <!---LeetCode Topics End-->
