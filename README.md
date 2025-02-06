@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0070-climbing-stairs) |
 | [0120-triangle](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0120-triangle) |
 | [2562-count-ways-to-build-good-strings](https://github.com/sanghunlee-711/leetcode-solving/tree/master/2562-count-ways-to-build-good-strings) |
 ## Array
@@ -50,4 +51,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0206-reverse-linked-list) |
+## Math
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0070-climbing-stairs) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
