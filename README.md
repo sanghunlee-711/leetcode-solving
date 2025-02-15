@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0027-remove-element) |
+| [0075-sort-colors](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0075-sort-colors) |
 | [0120-triangle](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0120-triangle) |
 | [0134-gas-station](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0134-gas-station) |
 | [2058-concatenation-of-array](https://github.com/sanghunlee-711/leetcode-solving/tree/master/2058-concatenation-of-array) |
@@ -30,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0027-remove-element) |
+| [0075-sort-colors](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0075-sort-colors) |
 ## String
 |  |
 | ------- |
@@ -72,4 +74,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0023-merge-k-sorted-lists) |
+## Sorting
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
