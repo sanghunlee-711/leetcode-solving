@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0027-remove-element) |
+| [0074-search-a-2d-matrix](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0075-sort-colors) |
 | [0120-triangle](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0120-triangle) |
 | [0134-gas-station](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0134-gas-station) |
@@ -78,4 +79,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0075-sort-colors) |
+## Binary Search
+|  |
+| ------- |
+| [0074-search-a-2d-matrix](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0074-search-a-2d-matrix) |
+## Matrix
+|  |
+| ------- |
+| [0074-search-a-2d-matrix](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0074-search-a-2d-matrix) |
 <!---LeetCode Topics End-->
