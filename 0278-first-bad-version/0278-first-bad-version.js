@@ -11,6 +11,7 @@
 /**
  * @param {function} isBadVersion()
  * @return {function}
+ * L 과 R이 겹쳐끝이나는 지점이 true가 시작되는 지점이되도록 BinarySearch
  */
 var solution = function(isBadVersion) {
     /**
@@ -31,7 +32,6 @@ var solution = function(isBadVersion) {
             }
         }
 
-        // console.log (L)
         return L
     };
 };
