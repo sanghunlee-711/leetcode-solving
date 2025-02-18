@@ -11,19 +11,21 @@
  * @param {number} n
  * @return {number}
  */
-// base (?) start <= end
-
 var guessNumber = function(n) {
-    let start = 0, end = n;
-    
-    while(start <= end) {
-        let mid = Math.floor((start + end) / 2) ;
-        const guessing = guess(mid);
-        
-        if(guessing === 0) return mid;
-        else if(guessing === -1) end = mid - 1; // higher number pick
-        else if(guessing === 1) start = mid + 1; // lower number pick
+    let L = 1, R = n;
+
+    while(L <= R) {
+        const mid = Math.floor((L+R)/2);
+        const res = guess(mid);
+
+        if(res === -1) {
+            R = mid - 1;
+        }else if(res === 1) {
+            L = mid + 1;
+        }else {
+            return mid;
+        }
     }
-    
-    return -1;
+
+    return -1;  
 };
