@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0020-valid-parentheses) |
+| [0094-binary-tree-inorder-traversal](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0094-binary-tree-inorder-traversal) |
 | [0155-min-stack](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0155-min-stack) |
 ## Design
 |  |
@@ -97,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0094-binary-tree-inorder-traversal) |
 | [0450-delete-node-in-a-bst](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0784-insert-into-a-binary-search-tree) |
@@ -109,7 +111,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0094-binary-tree-inorder-traversal) |
 | [0450-delete-node-in-a-bst](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0784-insert-into-a-binary-search-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0094-binary-tree-inorder-traversal) |
 <!---LeetCode Topics End-->
