@@ -13,24 +13,12 @@
  */
 var hasPathSum = function(root, targetSum) {
     if(!root) return false;
-    let res = false;
+    targetSum -= root.val;
 
-  const dfs = (node, sum) => {
-    const currSum = sum + node.val;
+    if(hasPathSum(root.left, targetSum)) return true;
+    if(hasPathSum(root.right, targetSum)) return true;
+
+    const isEnd = !root.left && !root.right;
     
-    const isEnd = !node.left && !node.right;
-    if(isEnd && currSum === targetSum) {
-        res = true;
-        return;
-    }
-
-    if(node.left) dfs(node.left, currSum)
-    if(node.right) dfs(node.right, currSum)
-    
-    return false;
-  }  
-
-  dfs(root, 0)
-
-  return res;
+    return targetSum === 0 && isEnd
 };
