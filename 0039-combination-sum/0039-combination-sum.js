@@ -6,23 +6,25 @@
 var combinationSum = function(candidates, target) {
     const res = [];
 
-    function dfs(i, curr, total) {
+
+    function dfs (i, subset, sum) {
+        
+
         //base
-        if(total === target) {
-            const currVal = [...curr];
-            res.push(currVal);
-            return;
-        } 
-        //over
-        if(i >= candidates.length || total > target) return;
+        if(i >= candidates.length || sum > target) return;
 
-        //현재 원소를 넣고 decision 트리를 진행
-        curr.push(candidates[i]);
-        dfs(i, curr, total + candidates[i]);
+        if(sum === target) {
+            const currVal = [...subset];
+            return res.push(currVal);
+        }
 
-        //현재 원소를 넣고 decision 트리를 진행하므로 total을 그대로
-        curr.pop();
-        dfs(i+1, curr, total);
+        //현재를 포함한 트리 노드
+        subset.push(candidates[i]);
+        dfs(i, subset, sum + candidates[i]);
+        //현재를 포함하지 않은 트리 노드
+
+        subset.pop();
+        dfs(i+1, subset, sum);
     }
 
     dfs(0, [], 0);
