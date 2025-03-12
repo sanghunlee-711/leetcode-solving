@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0217-contains-duplicate) |
 | [0695-max-area-of-island](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1171-shortest-path-in-binary-matrix) |
 | [2058-concatenation-of-array](https://github.com/sanghunlee-711/leetcode-solving/tree/master/2058-concatenation-of-array) |
 ## Greedy
@@ -106,6 +107,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0074-search-a-2d-matrix](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0074-search-a-2d-matrix) |
 | [0200-number-of-islands](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Interactive
 |  |
@@ -170,6 +172,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0199-binary-tree-right-side-view](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0695-max-area-of-island) |
+| [1036-rotting-oranges](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Backtracking
 |  |
