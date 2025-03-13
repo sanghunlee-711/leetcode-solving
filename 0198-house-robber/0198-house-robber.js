@@ -1,22 +1,23 @@
 /**
  * @param {number[]} nums
  * @return {number}
- //흠 1칸이상으로 띄워도 되는거라면..
- f(n) = Math.max(f(n+1) + nums[n], f(n+2));
 
+ f(n) = Math.max(f(n+1) + nums[n], f(n+2));
+bottom up ??
  */
 
 var rob = function(nums) {
-    const map = new Map();
-    const recur = (i) => {
-        if(i >= nums.length) return 0;
-        if(map.has(i)) return map.get(i);
+    if(nums.length === 0) return 0;
+    if(nums.length === 1) return nums[0];
 
-        const val = Math.max(recur(i+1), nums[i] + recur(i+2));
-        
-        map.set(i, val);
+    const dp = Array.from({length: nums.length}, (_, i) => 0);
 
-        return val
+    dp[0] = nums[0];
+    dp[1] = Math.max(nums[0], nums[1]);
+    
+    for(let i = 2; i < nums.length; i++) {
+        dp[i] = Math.max(dp[i-2] + nums[i], dp[i-1]);
     }
-    return recur(0);
-};
+
+    return dp[nums.length - 1];
+ };
