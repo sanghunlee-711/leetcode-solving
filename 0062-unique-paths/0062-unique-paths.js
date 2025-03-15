@@ -2,17 +2,29 @@
  * @param {number} m
  * @param {number} n
  * @return {number}
+ T.C: limit to 2 * 10 ^ (9)
+ m, n => 1 <= <= 100
+ Bruteforce: T.C: O(2^ (100*100))
+ Memoization: T.C: O(m + n) => gotit
+ BottomUP:
  */
-// 이게.. dp 문제면 점화식부터
-// dp(m,n) =  dp(m-1,n) + dp(m, n-1);
 var uniquePaths = function(m, n) {
-    const dp = Array.from({length: m}, () => Array.from({length:n}, () => 1));
-    
-    for(let col = 1; col < m; col++) {
-        for(let row = 1; row < n; row++) {
-            dp[col][row] = dp[col - 1][row] + dp[col][row - 1];
-        }
+    const grid = Array.from({length: m}, () => {
+        return Array.from({length: n }, () => {
+            return 0;
+        })
+    })
+
+    function memoization(r, c, rows, cols, cache) {
+        //base case
+        if(r === rows || c === cols) return 0;
+        if(cache[r][c] > 0) return cache[r][c]
+        if(r === rows - 1 || c === cols - 1) return 1;
+
+        cache[r][c] = (memoization(r+1, c, rows, cols, cache) + memoization(r, c + 1, rows, cols, cache))
+
+        return cache[r][c];
     }
-    
-    return dp[m-1][n-1];
+
+    return (memoization(0, 0, m, n, grid))
 };
