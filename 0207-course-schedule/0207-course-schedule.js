@@ -2,40 +2,45 @@
  * @param {number} numCourses
  * @param {number[][]} prerequisites
  * @return {boolean}
- 이거 양방향이면 걍 false인디 -> 방문한곳을 다시 방문하면
+ 1. adjacency list를 만든다
+ 2. dfs (+ backtracking)을 통해 싸이클 여부를 판단한다
+ 3. 연결되지 않은 노드들의 판단을 위해 회문을 통해 다시 한번 dfs를 처리한다.
  */
 var canFinish = function(numCourses, prerequisites) {
-    const adjacencyList = new Map();
-    //make adjacencyList
+    //1. adjacencyList만들기
+    const map = new Map();
     for(let i = 0; i < numCourses; i++) {
-        adjacencyList.set(i, []);
+        map.set(i, []);
+    }
+    for(const [crs, pre] of prerequisites) {
+        map.get(pre).push(crs);
     }
 
-    for(let [crs, dst] of prerequisites) {
-        adjacencyList.get(crs).push(dst);
-    }
+    console.log(map);
+    
+    const visiting = new Set(), // handle current visiting path
+        visited = new Set(); // already visited path
+    //backtracking
+    function dfs(course) {
+        if(visiting.has(course)) return false; //cycle detected => false
+        if(visited.has(course)) return true; // already check done => true;
 
-    const visit = new Set();
+        visiting.add(course);
 
-    function dfs (crs) {
-        if(visit.has(crs)) return false; // 싸이클임
-        if(adjacencyList.has(crs).length === 0) return true; //더 방문할 곳이 없으므로 끝을 의미
-
-        visit.add(crs);
-        for(let pre of adjacencyList.get(crs)) {
-            if(!dfs(pre)) return false;
+        for(const next of map.get(course)) {
+            if(!dfs(next)) return false;
         }
-        //backtracking
-        visit.delete(crs);
 
-        //빈 배열로 만들면 prerequisite이 없다는 뜻으로 설정 (재방문 안하려고 그러는 것임)
-        adjacencyList.set(crs, []);
+        visiting.delete(course);
+        visited.add(course);
+
         return true;
     }
 
-    for(let c = 0; c < numCourses; c++) {
-        if(!dfs(c)) return false;
+    //check island or departed nodes
+    for(let i = 0; i < numCourses; i++) {
+        if(!dfs(i)) return false;
     }
 
-    return true
+    return true;
 };
