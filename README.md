@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0120-triangle](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0120-triangle) |
 | [0198-house-robber](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0198-house-robber) |
 | [0338-counting-bits](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0338-counting-bits) |
+| [1020-longest-turbulent-subarray](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1020-longest-turbulent-subarray) |
 | [1250-longest-common-subsequence](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1250-longest-common-subsequence) |
 | [2562-count-ways-to-build-good-strings](https://github.com/sanghunlee-711/leetcode-solving/tree/master/2562-count-ways-to-build-good-strings) |
 ## Array
@@ -34,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0200-number-of-islands) |
 | [0217-contains-duplicate](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0217-contains-duplicate) |
 | [0695-max-area-of-island](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0695-max-area-of-island) |
+| [1020-longest-turbulent-subarray](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1020-longest-turbulent-subarray) |
 | [1036-rotting-oranges](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1171-shortest-path-in-binary-matrix) |
 | [2058-concatenation-of-array](https://github.com/sanghunlee-711/leetcode-solving/tree/master/2058-concatenation-of-array) |
@@ -230,4 +232,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0207-course-schedule) |
+## Sliding Window
+|  |
+| ------- |
+| [1020-longest-turbulent-subarray](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1020-longest-turbulent-subarray) |
 <!---LeetCode Topics End-->
