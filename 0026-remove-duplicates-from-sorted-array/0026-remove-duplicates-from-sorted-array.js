@@ -3,16 +3,15 @@
  * @return {number}
  */
 var removeDuplicates = function(nums) {
-    let i = 1;
-    let startIdx = 1;
+    let n = nums.length,
+        l = 0, r = 0;
 
-    while(i < nums.length) {
-        if(nums[i] !== nums[i-1]){
-            nums[startIdx] = nums[i]
-            startIdx++;
-        }
-        i++;
+    while(r < n) {
+        nums[l] = nums[r];
+        //expanding window until finding different char
+        while(r < n && nums[r] === nums[l]) r++;
+        l++;
     }
 
-    return startIdx;
+    return l;
 };
