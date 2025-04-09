@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0020-valid-parentheses](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0125-valid-palindrome) |
+| [0208-implement-trie-prefix-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0208-implement-trie-prefix-tree) |
 | [1250-longest-common-subsequence](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1250-longest-common-subsequence) |
 ## Stack
 |  |
@@ -79,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0146-lru-cache](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0146-lru-cache) |
 | [0155-min-stack](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0155-min-stack) |
+| [0208-implement-trie-prefix-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0208-implement-trie-prefix-tree) |
 | [0303-range-sum-query-immutable](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0303-range-sum-query-immutable) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Linked List
@@ -197,6 +199,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0133-clone-graph) |
 | [0141-linked-list-cycle](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0146-lru-cache) |
+| [0208-implement-trie-prefix-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0208-implement-trie-prefix-tree) |
 | [0217-contains-duplicate](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0219-contains-duplicate-ii) |
 ## Breadth-First Search
@@ -258,4 +261,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0303-range-sum-query-immutable](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0303-range-sum-query-immutable) |
+## Trie
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
