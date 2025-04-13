@@ -37,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0219-contains-duplicate-ii) |
 | [0303-range-sum-query-immutable](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0303-range-sum-query-immutable) |
+| [0307-range-sum-query-mutable](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0307-range-sum-query-mutable) |
 | [0695-max-area-of-island](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0695-max-area-of-island) |
 | [1020-longest-turbulent-subarray](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1020-longest-turbulent-subarray) |
 | [1036-rotting-oranges](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1036-rotting-oranges) |
@@ -84,6 +85,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0208-implement-trie-prefix-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0303-range-sum-query-immutable](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0303-range-sum-query-immutable) |
+| [0307-range-sum-query-mutable](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0307-range-sum-query-mutable) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Linked List
 |  |
@@ -273,4 +275,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0211-design-add-and-search-words-data-structure) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [0307-range-sum-query-mutable](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0307-range-sum-query-mutable) |
+## Segment Tree
+|  |
+| ------- |
+| [0307-range-sum-query-mutable](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0307-range-sum-query-mutable) |
 <!---LeetCode Topics End-->
