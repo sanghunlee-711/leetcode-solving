@@ -61,6 +61,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0125-valid-palindrome](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0141-linked-list-cycle) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0295-find-median-from-data-stream](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0295-find-median-from-data-stream) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/sanghunlee-711/leetcode-solving/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## String
 |  |
@@ -86,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0155-min-stack](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0295-find-median-from-data-stream](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0295-find-median-from-data-stream) |
 | [0303-range-sum-query-immutable](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0303-range-sum-query-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0307-range-sum-query-mutable) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -121,6 +123,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0023-merge-k-sorted-lists) |
+| [0295-find-median-from-data-stream](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0295-find-median-from-data-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Merge Sort
 |  |
@@ -131,6 +134,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0075-sort-colors](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0075-sort-colors) |
 | [0217-contains-duplicate](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0217-contains-duplicate) |
+| [0295-find-median-from-data-stream](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0295-find-median-from-data-stream) |
 ## Binary Search
 |  |
 | ------- |
@@ -243,6 +247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Data Stream
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0295-find-median-from-data-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Doubly-Linked List
 |  |
