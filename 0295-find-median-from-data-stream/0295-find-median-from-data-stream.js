@@ -1,23 +1,48 @@
-class MedianFinder {
-    constructor() {
-        this.minHeap = new MinPriorityQueue() //supported by leetcode
-        this.maxHeap = new MaxPriorityQueue()
+
+var MedianFinder = function() {
+    //큰쪽중 가장 작은값을 빨리 가져오기 위함
+    this.large = new MinPriorityQueue() //가장 작은 value가 front에 있음 
+    //작은쪽중 가장 큰 값을 빨리 가져오기 위함
+    this.small = new MaxPriorityQueue() //가장 큰 value 가 front에 있음
+};
+
+/** 
+ * @param {number} num
+ * @return {void}
+ */
+MedianFinder.prototype.addNum = function(num) {
+    if (this.large.isEmpty() || num > this.large.front()) {
+        this.large.enqueue(num);
+    } else {
+        this.small.enqueue(num);
+    }
+    //사이즈 최대차이는 1이상 나지 않도록 밸런스 맞추기
+    if (this.small.size() > this.large.size() + 1) {
+        this.large.enqueue(this.small.dequeue());
+    } else if (this.large.size() > this.small.size() + 1) {
+        this.small.enqueue(this.large.dequeue());
+    }
+};
+
+/**
+ * @return {number}
+ */
+MedianFinder.prototype.findMedian = function() {
+    if(this.small.size() > this.large.size()) {
+        return this.small.front();
+    } else if(this.large.size() > this.small.size()) {
+        return this.large.front();
     }
 
-    addNum(num) {
-	//add to min and pop the top for max to keep them in the order that we want
-        this.minHeap.enqueue(num);
-        this.maxHeap.enqueue(this.minHeap.dequeue().element);
-		//balance them
-        if (this.minHeap.size() < this.maxHeap.size()) {
-            this.minHeap.enqueue(this.maxHeap.dequeue().element);
-        }
-    }
+    return (
+        this.small.front() + 
+        this.large.front()
+    ) / 2.0;
+};
 
-    findMedian() {
-        if (this.minHeap.size() > this.maxHeap.size()) 
-            return this.minHeap.front().element;
-        else 
-            return (this.minHeap.front().element + this.maxHeap.front().element) / 2;
-    }
-}
+/** 
+ * Your MedianFinder object will be instantiated and called as such:
+ * var obj = new MedianFinder()
+ * obj.addNum(num)
+ * var param_2 = obj.findMedian()
+ */
