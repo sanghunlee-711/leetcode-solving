@@ -12,11 +12,12 @@ const helper = (i, currSub, res, n, k) => {
         res.push([...currSub])
         return;
     }
-    currSub.push(i)
-    helper(i+1, currSub, res, n, k);
 
-    currSub.pop()
-    helper(i+1, currSub, res, n, k);
+    for(let j = i; j < n + 1; j++) {
+        currSub.push(j)
+        helper(j+1, currSub, res, n, k);
+        currSub.pop()
+    }
 }
 
 var combine = function(n, k) {
