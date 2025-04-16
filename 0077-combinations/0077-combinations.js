@@ -2,8 +2,8 @@
  * @param {number} n
  * @param {number} k
  * @return {number[][]}
- T.C: O(k * 2^n)
- 2^n: 각 숫자 포함 할지 말지에 대해 생기는 branching
+ T.C: O(k * C(n, k))
+ C(n, k): n개 중 k개 순서없이 고르기
  k: currSub 깊은 복사 시 
  */
 const helper = (i, currSub, res, n, k) => {
