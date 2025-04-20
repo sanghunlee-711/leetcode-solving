@@ -126,6 +126,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0023-merge-k-sorted-lists) |
 | [0295-find-median-from-data-stream](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0295-find-median-from-data-stream) |
+| [0744-network-delay-time](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Merge Sort
 |  |
@@ -211,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0684-redundant-connection](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0695-max-area-of-island) |
+| [0744-network-delay-time](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0744-network-delay-time) |
 ## Hash Table
 |  |
 | ------- |
@@ -233,6 +235,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0207-course-schedule) |
 | [0684-redundant-connection](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0695-max-area-of-island) |
+| [0744-network-delay-time](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0744-network-delay-time) |
 | [1036-rotting-oranges](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1036-rotting-oranges) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1171-shortest-path-in-binary-matrix) |
 ## Backtracking
@@ -271,6 +274,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0207-course-schedule) |
 | [0684-redundant-connection](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0684-redundant-connection) |
+| [0744-network-delay-time](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0744-network-delay-time) |
 ## Combinatorics
 |  |
 | ------- |
@@ -302,4 +306,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0307-range-sum-query-mutable) |
+## Shortest Path
+|  |
+| ------- |
+| [0744-network-delay-time](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0744-network-delay-time) |
 <!---LeetCode Topics End-->
