@@ -2,45 +2,34 @@
  * @param {number} numCourses
  * @param {number[][]} prerequisites
  * @return {boolean}
- 1. adjacency list를 만든다
- 2. dfs (+ backtracking)을 통해 싸이클 여부를 판단한다
- 3. 연결되지 않은 노드들의 판단을 위해 회문을 통해 다시 한번 dfs를 처리한다.
  */
+
+
 var canFinish = function(numCourses, prerequisites) {
-    //1. adjacencyList만들기
-    const map = new Map();
-    for(let i = 0; i < numCourses; i++) {
-        map.set(i, []);
-    }
-    for(const [crs, pre] of prerequisites) {
-        map.get(pre).push(crs);
-    }
+    const adj = {}
+    const visit = new Set();
 
-    console.log(map);
+    for(let i = 0; i < numCourses; i++) adj[i] = [];
+    for(let [src, dst] of prerequisites) adj[src].push(dst)
     
-    const visiting = new Set(), // handle current visiting path
-        visited = new Set(); // already visited path
-    //backtracking
-    function dfs(course) {
-        if(visiting.has(course)) return false; //cycle detected => false
-        if(visited.has(course)) return true; // already check done => true;
+    function dfs (crs) {
+        //cycle
+        if(visit.has(crs)) return false;
+        //더 이상 사전 요구 과목 없음
+        if(adj[crs].length === 0) return true;
+        //방문 처리
+        visit.add(crs);
 
-        visiting.add(course);
-
-        for(const next of map.get(course)) {
-            if(!dfs(next)) return false;
+        for(let pre of adj[crs]) {
+            if(!dfs(pre)) return false;
         }
-
-        visiting.delete(course);
-        visited.add(course);
-
+        //이미 체크 된 경우 빈 값 처리 해준다.
+        visit.delete(crs);
+        adj[crs] = [];
         return true;
     }
 
-    //check island or departed nodes
-    for(let i = 0; i < numCourses; i++) {
-        if(!dfs(i)) return false;
-    }
-
+    for(let i = 0; i < numCourses; i++) if(!dfs(i)) return false;
+    
     return true;
 };
