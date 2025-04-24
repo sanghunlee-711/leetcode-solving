@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0120-triangle](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0120-triangle) |
 | [0198-house-robber](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0198-house-robber) |
 | [0338-counting-bits](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0338-counting-bits) |
+| [0416-partition-equal-subset-sum](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0416-partition-equal-subset-sum) |
 | [1020-longest-turbulent-subarray](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1020-longest-turbulent-subarray) |
 | [1250-longest-common-subsequence](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1250-longest-common-subsequence) |
 | [2562-count-ways-to-build-good-strings](https://github.com/sanghunlee-711/leetcode-solving/tree/master/2562-count-ways-to-build-good-strings) |
@@ -40,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0219-contains-duplicate-ii](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0219-contains-duplicate-ii) |
 | [0303-range-sum-query-immutable](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0303-range-sum-query-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0307-range-sum-query-mutable) |
+| [0416-partition-equal-subset-sum](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0416-partition-equal-subset-sum) |
 | [0695-max-area-of-island](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0695-max-area-of-island) |
 | [1020-longest-turbulent-subarray](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1020-longest-turbulent-subarray) |
 | [1036-rotting-oranges](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1036-rotting-oranges) |
