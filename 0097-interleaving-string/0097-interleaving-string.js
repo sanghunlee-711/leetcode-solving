@@ -9,27 +9,21 @@ var isInterleave = function(s1, s2, s3) {
 
     if(N+M !== L) return false;
 
-    const memo = Array.from({length: N+1}, () => Array(M+1).fill(-1));
+    const dp = Array.from({length: N+1}, () => Array(M+1).fill(false));
+    //끝에 도달하면 무조건 true로 bruteforce에서 해결했기 때문
+    dp[N][M] = true;
 
-    function dfs(i1, i2, i3) {
-        if(i3 === L) return (i1 === N && i2 === M);
-        if(memo[i1][i2] !== -1) return memo[i1][i2];
+    for(let i = N; i>= 0; i--) {
+        for(let j = M; j >= 0; j--) {
+            if(i < N && s1[i] === s3[i+j] && dp[i+1][j]) {
+                dp[i][j] = true
+            }
 
-        if(i1 < N && s1[i1] === s3[i3]) {
-            const res = dfs(i1+1, i2, i3+1)
-            memo[i1][i2] = res
-            if(res) return res;
+            if(j < M && s2[j] === s3[i+j] && dp[i][j+1]) {
+                dp[i][j] = true
+            }
         }
-
-        if((i2 < M && s2[i2] === s3[i3])) {
-            const res = dfs(i1, i2+1, i3+1)
-            memo[i1][i2] = res
-            if(res) return res;
-        }
-
-        return false;
     }
 
-    const result = dfs(0,0,0);
-    return result;
+    return dp[0][0]
 };
