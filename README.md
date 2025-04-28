@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0063-unique-paths-ii) |
@@ -62,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0005-longest-palindromic-substring) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0027-remove-element) |
 | [0075-sort-colors](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0075-sort-colors) |
@@ -73,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0020-valid-parentheses) |
 | [0097-interleaving-string](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0097-interleaving-string) |
 | [0125-valid-palindrome](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0125-valid-palindrome) |
