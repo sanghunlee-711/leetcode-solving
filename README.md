@@ -105,6 +105,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Linked List
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0023-merge-k-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0146-lru-cache) |
@@ -113,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 |  |
 | ------- |
+| [0021-merge-two-sorted-lists](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0206-reverse-linked-list) |
 ## Math
 |  |
