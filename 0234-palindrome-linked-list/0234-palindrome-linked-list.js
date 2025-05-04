@@ -23,6 +23,9 @@ var isPalindrome = function(head) {
         slow = slow.next;
         fast = fast.next.next;
     }
+    //edge: 홀수 길이 인 경우, slow가 중앙을 가리키므로 skip
+    if(fast !== null) slow = slow.next;
+
     //이제 slow가 절반의 위치에 있음.
 
     //slow를 뒤집기
