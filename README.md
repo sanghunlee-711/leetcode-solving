@@ -113,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0019-remove-nth-node-from-end-of-list](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0021-merge-two-sorted-lists) |
 | [0023-merge-k-sorted-lists](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0023-merge-k-sorted-lists) |
+| [0138-copy-list-with-random-pointer](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0146-lru-cache) |
@@ -240,6 +241,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0001-two-sum](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0001-two-sum) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0133-clone-graph](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0133-clone-graph) |
+| [0138-copy-list-with-random-pointer](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0208-implement-trie-prefix-tree) |
