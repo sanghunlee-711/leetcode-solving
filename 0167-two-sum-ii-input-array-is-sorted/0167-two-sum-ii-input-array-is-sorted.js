@@ -4,18 +4,18 @@
  * @return {number[]}
  */
 var twoSum = function(numbers, target) {
-    let L = 0, R = numbers.length - 1;
+    const n = numbers.length;
+    let p1 = 0,
+        p2 = n-1;
 
-    while(L < R) {
-        const [left, right] = [numbers[L], numbers[R]];
-        const sum = numbers[L] + numbers[R];
-
-        if(sum === target) return [L+1, R+1];
-
-        if(sum < target) L++;
-        else if(sum > target) R--;
-        
-     
+    while(p1 < p2) {
+        if(numbers[p1]+numbers[p2] === target) return [p1+1, p2+1];
+        else if(numbers[p1]+numbers[p2] < target) {
+            p1++;
+        }else {
+            p2--;
+        }    
     }
-    return null;
+
+    return [-1,-1]
 };
