@@ -1,29 +1,39 @@
 /**
  * @param {number[]} nums
  * @return {number[][]}
+ //1. dfs brute force는 O(n^3)가능성이 있어 패스
+ //2. 포인터 하나를 고정한뒤 투포인터로 진행
  */
 var threeSum = function(nums) {
-    const res = new Set(),
-          dups = new Set(),
-          seen = new Map();
-    
-    for(let i = 0; i < nums.length; i++) {
-        if(dups.add(nums[i])){
-            
-            
-            for(let j = i+1; j < nums.length; j++) {
-                const complement = -1 * (nums[i] + nums[j]);
-                
-                if(seen.has(complement) && seen.get(complement) === i) {
-                    const triplet = [nums[i], nums[j], complement].sort((a,b)=> a-b);
-                    //Javascript set can't figure out array is dups in set
-                    res.add(JSON.stringify(triplet));
-                }
-                seen.set(nums[j], i);
+    const result = [];
+    //투포인터 활용을 위한 정렬
+    nums.sort((a,b) => a-b);
+
+    for(let i = 0; i < nums.length - 2; i++) {
+        //중복케이스 제거
+        if(i > 0 && nums[i] === nums[i-1]) continue;
+
+        let left = i+1,
+            right = nums.length - 1;
+        
+        while(left < right) {
+            const currSum = nums[i] + nums[left] + nums[right];
+
+            if(currSum === 0) {
+                result.push([nums[i], nums[left], nums[right]]);
+
+                //중복 제거
+                while(nums[left] === nums[left + 1]) left++;
+                while(nums[right] === nums[right - 1]) right--;
+                //이동
+                left++;
+                right--;
+            } else if(currSum < 0) {
+                left ++;
+            } else {
+                right --;
             }
         }
-        
     }
-    
-    return [...res].map((re) => JSON.parse(re))
+    return result;
 };
