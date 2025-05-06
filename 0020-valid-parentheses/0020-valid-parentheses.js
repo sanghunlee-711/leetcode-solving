@@ -1,26 +1,24 @@
 /**
  * @param {string} s
  * @return {boolean}
+ // 스택에 시작 괄호들 넣고, 닫힘 괄호가 나오는 경우 매칭이 된다면 true 아님 false
  */
- const map = {
-    "{" : "}",
-    "[" : "]",
-    "(" : ")"
- }
 var isValid = function(s) {
+    const obj = {
+        "(" : ")",
+        "{" : "}",
+        "[" : "]"
+    }
     const stack = [];
 
     for(let i = 0; i < s.length; i++) {
-        const curr = s[i];
-
-        if(curr === "{" || curr === "[" || curr === "(") {
-            stack.push(curr);
-        }else {
-            if(stack.lenth === 0) return false;
-            const last = stack.pop();
-            if(map[last] !== curr) return false;
+        const char = s[i];
+        if(obj[char]) stack.push(char)
+        else {
+            const curr = stack.pop()
+            if(obj[curr] !== char) return false;
         }
-        
     }
-    return stack.length === 0;
+
+    return stack.length === 0
 };
