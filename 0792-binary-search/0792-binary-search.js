@@ -2,22 +2,19 @@
  * @param {number[]} nums
  * @param {number} target
  * @return {number}
- * T.C: request O(lon n) -> Binary search
+ 정렬이 되어있으므로 이진탐색 
  */
 var search = function(nums, target) {
-    let L = 0, R = nums.length - 1;
+    const len = nums.length
+    let left = 0, right = len - 1;
 
-    while(L <= R) {
-        const mid = Math.floor((L+R)/ 2);
-        const curr = nums[mid];
+    while(left <= right) {
+        const mid = Math.floor((left + right) / 2);
 
-        if(target > curr) {
-            L = mid + 1;
-        }else if(target < curr) {
-            R = mid - 1;
-        }else {
-            return mid;
-        }
+        if(nums[mid] === target) return mid;
+        else if(nums[mid] < target) left = mid + 1;
+        else right = mid - 1;
     }
+
     return -1;
 };
