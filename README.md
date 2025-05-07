@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0027-remove-element) |
+| [0033-search-in-rotated-sorted-array](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0046-permutations) |
 | [0053-maximum-subarray](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0053-maximum-subarray) |
@@ -174,6 +175,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0074-search-a-2d-matrix) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0278-first-bad-version](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0278-first-bad-version) |
