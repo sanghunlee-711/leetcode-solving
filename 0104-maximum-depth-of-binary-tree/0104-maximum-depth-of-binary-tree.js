@@ -9,26 +9,21 @@
 /**
  * @param {TreeNode} root
  * @return {number}
- max를 표현할 변수
- dfs를 통해 가장 깊은 길이 판단.
- N은 노드의 개수, H는 트리의 높이
- T.C: O(N*H) 
- S.C: O(H) 
  */
 var maxDepth = function(root) {
-    let max = 0;
+    let max = -Infinity;
 
-    function dfs(node, val) {
-        //base
+    function dfs(node, depth) {
         if(!node) return;
-        const currVal = val + 1;
-        max = Math.max(max, currVal);
 
-        if(node.left) dfs(node.left, currVal);
-        if(node.right) dfs(node.right, currVal);
+        const currentDepth = depth + 1;
+        max = Math.max(currentDepth, max);
+
+        if(node.left) dfs(node.left, currentDepth)
+        if(node.right) dfs(node.right, currentDepth)
     }
 
     dfs(root, 0);
 
-    return max;
+    return max === -Infinity ? 0 : max;
 };
