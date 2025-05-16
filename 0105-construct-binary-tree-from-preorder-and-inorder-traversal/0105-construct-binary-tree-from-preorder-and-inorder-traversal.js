@@ -15,19 +15,17 @@
  */
 var buildTree = function(preorder, inorder) {
     if(!preorder.length || !inorder.length) return null;
-
     const rootVal = preorder[0];
     const root = new TreeNode(rootVal);
-
     const idx = inorder.indexOf(rootVal);
     root.left = buildTree(
-        preorder.slice(1, idx + 1),
-        inorder.slice(0, idx + 1)
-    );
+        preorder.slice(1, idx+1),
+        inorder.slice(0,idx)
+    )
     root.right = buildTree(
         preorder.slice(idx+1),
         inorder.slice(idx+1)
-    );
+    )
 
     return root;
 };
