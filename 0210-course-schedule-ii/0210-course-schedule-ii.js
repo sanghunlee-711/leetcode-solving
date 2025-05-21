@@ -2,25 +2,24 @@
  * @param {number} numCourses
  * @param {number[][]} prerequisites
  * @return {number[]}
+ 209와 동일하나 방문하였던것과 방문중인것을 나눌 필요가 있다.
  */
 var findOrder = function(numCourses, prerequisites) {
     const adj = {};
     for(let i = 0; i < numCourses; i++) adj[i] = [];
-    prerequisites.forEach(([to, from]) => adj[from].push(to));
-    const visiting = new Set(), //현재 dfs 단계에서 수강중인 강의
-        visited = new Set(); // 싸이클 유무 체크도 넘어간 강의
+    prerequisites.forEach(([next, prev])=> adj[next].push(prev));
+    const visiting = new Set(),
+        visited = new Set();
 
     function dfs(crs) {
-        if(visited.has(crs)) return true;
         if(visiting.has(crs)) return false;
+        if(visited.has(crs)) return true;
 
-        const nextCourses = adj[crs];
+        const preCourses = adj[crs];
         visiting.add(crs);
-        //싸이클 유무 판별을 위해 각 코스마다 돌리게 됨.
-        for(const nextCourse of nextCourses) {
-            if(!dfs(nextCourse)) return false;
+        for(const preCourse of preCourses) {
+            if(!dfs(preCourse)) return false;
         }
-
         visiting.delete(crs);
         visited.add(crs);
 
@@ -30,6 +29,6 @@ var findOrder = function(numCourses, prerequisites) {
     for(let i = 0; i < numCourses; i++) {
         if(!dfs(i)) return [];
     }
-    
-    return Array.from(visited).reverse();
+
+    return Array.from(visited);
 };
