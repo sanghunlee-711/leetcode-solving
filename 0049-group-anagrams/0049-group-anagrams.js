@@ -1,23 +1,21 @@
 /**
  * @param {string[]} strs
  * @return {string[][]}
+ 아나그램 체크 하는 펑션을 만들어도 되나
+ 어차피 정렬하면 다 같아야함
+ 1. 정렬된 것을 Map의 key로 함
+ 2. values반환
  */
-
-//
-// 1. 객체에서 같은 키의 값에 배열을 두고 다 넣어주면 됨
-// 해쉬 맵 활용이라 보면 될듯
-
-const doSort = (str) => str.split("").sort().join('');
-
 var groupAnagrams = function(strs) {
-    const map = new Map();
-    
-    strs.forEach((str) => {
-        const sortedStr = doSort(str);
+   const res = new Map();
+
+    for(const str of strs) {
+        const sortedStr = str.split("").sort().join("");
         
-        if(!map.has(sortedStr)) map.set(sortedStr,[str]);
-        else map.set(sortedStr,[...map.get(sortedStr), str]);
-    });
+        if(!res.has(sortedStr)) res.set(sortedStr, []);
+        const currVal = res.get(sortedStr);
+        res.set(sortedStr, [str, ...currVal]);
+    }
     
-    return [...map.values()];
+   return Array.from(res.values()); 
 };
