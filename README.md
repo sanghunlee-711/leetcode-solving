@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0033-search-in-rotated-sorted-array](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0033-search-in-rotated-sorted-array) |
 | [0039-combination-sum](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0046-permutations) |
+| [0049-group-anagrams](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0053-maximum-subarray) |
 | [0063-unique-paths-ii](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0063-unique-paths-ii) |
 | [0074-search-a-2d-matrix](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0074-search-a-2d-matrix) |
@@ -92,6 +93,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0020-valid-parentheses) |
+| [0049-group-anagrams](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0049-group-anagrams) |
 | [0097-interleaving-string](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0097-interleaving-string) |
 | [0125-valid-palindrome](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0208-implement-trie-prefix-tree) |
@@ -173,6 +175,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0015-3sum](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0015-3sum) |
+| [0049-group-anagrams](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0049-group-anagrams) |
 | [0075-sort-colors](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0075-sort-colors) |
 | [0217-contains-duplicate](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0217-contains-duplicate) |
 | [0295-find-median-from-data-stream](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0295-find-median-from-data-stream) |
@@ -285,6 +288,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0001-two-sum](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0049-group-anagrams](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0049-group-anagrams) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0133-clone-graph](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0133-clone-graph) |
