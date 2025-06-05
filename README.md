@@ -87,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0234-palindrome-linked-list](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0234-palindrome-linked-list) |
 | [0295-find-median-from-data-stream](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0295-find-median-from-data-stream) |
+| [0567-permutation-in-string](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0567-permutation-in-string) |
 | [0908-middle-of-the-linked-list](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0908-middle-of-the-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/sanghunlee-711/leetcode-solving/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## String
@@ -100,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0125-valid-palindrome](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0567-permutation-in-string](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0567-permutation-in-string) |
 | [1250-longest-common-subsequence](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1250-longest-common-subsequence) |
 ## Stack
 |  |
@@ -305,6 +307,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0219-contains-duplicate-ii) |
 | [0347-top-k-frequent-elements](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0347-top-k-frequent-elements) |
+| [0567-permutation-in-string](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0567-permutation-in-string) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -382,6 +385,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0219-contains-duplicate-ii](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0219-contains-duplicate-ii) |
 | [0239-sliding-window-maximum](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0239-sliding-window-maximum) |
+| [0567-permutation-in-string](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0567-permutation-in-string) |
 | [1020-longest-turbulent-subarray](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1020-longest-turbulent-subarray) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 ## Prefix Sum
