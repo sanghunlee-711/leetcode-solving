@@ -1,30 +1,28 @@
 /**
  * @param {number[]} nums
  * @return {number}
+ //set 에 추가하면서 +1이 있는 경우가지 계속 돌림?
+
  */
 var longestConsecutive = function(nums) {
-    if(!nums.length || !nums) return 0;
-    
-    const set = new Set(nums);
-    let longestStreak = 0;
-    
-    for(let i = 0; i < nums.length; i++) { 
-        const num = nums[i];
-        
-        //연속된 값의 최소가 되는 경우부터 카운트 하기 위해서 더 작은 연속수가 있으면 스킵!
-        if(set.has(num - 1)) continue;
-                
-        let currentNum = num;
-        let currentStreak = 1;
-        //위 if조건문으로 연속되지 않는경우 모두 while문에 들어오기 전에 컷이 되기 때문에 최대 복잡도로 따져도 while문의 n + for문의 n이 된다.
-        while(set.has(currentNum + 1)) {
-            currentNum += 1;
-            currentStreak += 1;
-        }
+  let max = 0;
+  const set = new Set(nums);
 
-        longestStreak = Math.max(longestStreak, currentStreak);
-        
+    for(const num of set) {
+        const isStart = !set.has(num - 1)
+        if(isStart) {
+            let curr = num;
+            let currCount = 1;
+
+            while(set.has(curr+1)) {
+                curr+=1;
+                currCount +=1;
+            }
+
+            max = Math.max(max, currCount);
+        }
     }
     
-    return longestStreak;
+
+  return max;
 };
