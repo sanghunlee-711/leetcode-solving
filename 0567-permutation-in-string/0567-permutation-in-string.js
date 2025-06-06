@@ -2,45 +2,45 @@
  * @param {string} s1
  * @param {string} s2
  * @return {boolean}
+ window크기를 s1만큼 유지하면서 계속 체크 ㄱㄱ
  */
 var checkInclusion = function(s1, s2) {
-    const needCount = {};
-    for(const char of s1) needCount[char] = (needCount[char] || 0) + 1;
-
+    const charMap = {};
+    for(const char of s1) charMap[char] = (charMap[char] || 0) + 1;
+    const required = Object.keys(charMap).length; // 필요한 문자 개수 
     const windowCount = {};
-    let matchCount = 0;
-    const target = Object.keys(needCount).length;
+    let currCount = 0;
 
     let left = 0, right = 0;
 
     while(right < s2.length) {
-        //윈도우 문자 추가 
-        const inChar = s2[right];
+        const rightChar = s2[right];
 
-        if(needCount[inChar] !== undefined) {
-            windowCount[inChar] = (windowCount[inChar] || 0) + 1;
+        if(charMap[rightChar] !== undefined) {
+            windowCount[rightChar] = (windowCount[rightChar] || 0) + 1;
 
-            if(windowCount[inChar] === needCount[inChar]) matchCount++;
+            if(windowCount[rightChar] === charMap[rightChar]) currCount++;
         }
 
-        //윈도우 크기 동일 시
-        if(right - left + 1 > s1.length) {
-            const outChar = s2[left];
 
-            if(needCount[outChar] !== undefined) {
-                if(windowCount[outChar] === needCount[outChar]) matchCount--;
-                windowCount[outChar]--;
+
+        //left 올릴 떄
+        if(right - left + 1 > s1.length) {
+            const leftChar = s2[left];
+
+            if(charMap[leftChar] !== undefined) {
+                if(windowCount[leftChar] === charMap[leftChar]) currCount--;
+                windowCount[leftChar] = (windowCount[leftChar] || 0) -1;
             }
+            
             left++;
         }
-        
 
-        //permutation찾는 여부
-        if(target === matchCount) return true;
+        //매치될떄
+        if(currCount === required) return true;
 
-        right++;//윈도우 확장
+        right++;
     }
-
 
     return false;
 };
