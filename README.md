@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0005-longest-palindromic-substring) |
+| [0022-generate-parentheses](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0022-generate-parentheses) |
 | [0053-maximum-subarray](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0053-maximum-subarray) |
 | [0062-unique-paths](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0063-unique-paths-ii) |
@@ -96,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0005-longest-palindromic-substring](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0020-valid-parentheses) |
+| [0022-generate-parentheses](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0049-group-anagrams) |
 | [0097-interleaving-string](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0097-interleaving-string) |
 | [0125-valid-palindrome](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0125-valid-palindrome) |
@@ -335,6 +337,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0077-combinations) |
