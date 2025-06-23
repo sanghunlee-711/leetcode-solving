@@ -107,6 +107,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0211-design-add-and-search-words-data-structure](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0424-longest-repeating-character-replacement](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0567-permutation-in-string) |
+| [1023-time-based-key-value-store](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1023-time-based-key-value-store) |
 | [1250-longest-common-subsequence](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1250-longest-common-subsequence) |
 ## Stack
 |  |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0303-range-sum-query-immutable](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0303-range-sum-query-immutable) |
 | [0307-range-sum-query-mutable](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0307-range-sum-query-mutable) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1023-time-based-key-value-store](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1023-time-based-key-value-store) |
 ## Linked List
 |  |
 | ------- |
@@ -202,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0374-guess-number-higher-or-lower](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0374-guess-number-higher-or-lower) |
 | [0792-binary-search](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0907-koko-eating-bananas) |
+| [1023-time-based-key-value-store](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1023-time-based-key-value-store) |
 ## Matrix
 |  |
 | ------- |
@@ -316,6 +319,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0347-top-k-frequent-elements) |
 | [0424-longest-repeating-character-replacement](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0567-permutation-in-string) |
+| [1023-time-based-key-value-store](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1023-time-based-key-value-store) |
 ## Breadth-First Search
 |  |
 | ------- |
