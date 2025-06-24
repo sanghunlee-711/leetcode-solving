@@ -9,24 +9,22 @@
 /**
  * @param {TreeNode} root
  * @return {number}
- * T.C: O(N)
- * S.C: O(N)
  */
-
-
 var diameterOfBinaryTree = function(root) {
-    let diameter = 0;
-    
-    const longestPath = (node) => {
-        //base case
+    let max = 0;
+
+    const dfs = (node) => {
         if(!node) return 0;
+
+        const left = dfs(node.left),
+            right = dfs(node.right);
+
+        max = Math.max(left + right, max);
         
-        const leftPath = longestPath(node.left),
-            rightPath = longestPath(node.right);
-        diameter = Math.max(diameter, leftPath+rightPath);
-        return Math.max(leftPath, rightPath) + 1;
-    }    
-    
-    longestPath(root);
-    return diameter
+        return Math.max(left, right) + 1;
+    }
+
+    dfs(root);
+
+    return max;
 };
