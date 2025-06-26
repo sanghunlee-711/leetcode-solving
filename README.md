@@ -242,6 +242,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0437-path-sum-iii](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0437-path-sum-iii) |
 | [0450-delete-node-in-a-bst](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0572-subtree-of-another-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -275,6 +276,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0437-path-sum-iii](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0437-path-sum-iii) |
 | [0450-delete-node-in-a-bst](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0572-subtree-of-another-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -302,6 +304,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0417-pacific-atlantic-water-flow](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0417-pacific-atlantic-water-flow) |
 | [0437-path-sum-iii](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0437-path-sum-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0543-diameter-of-binary-tree) |
+| [0572-subtree-of-another-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0572-subtree-of-another-tree) |
 | [0684-redundant-connection](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0695-max-area-of-island) |
 | [0744-network-delay-time](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0744-network-delay-time) |
@@ -450,4 +453,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0347-top-k-frequent-elements) |
+## String Matching
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0572-subtree-of-another-tree) |
+## Hash Function
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0572-subtree-of-another-tree) |
 <!---LeetCode Topics End-->
