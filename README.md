@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0074-search-a-2d-matrix](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0090-subsets-ii) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
@@ -101,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0049-group-anagrams) |
 | [0076-minimum-window-substring](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0079-word-search) |
 | [0097-interleaving-string](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0097-interleaving-string) |
 | [0125-valid-palindrome](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0208-implement-trie-prefix-tree) |
@@ -210,6 +212,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0063-unique-paths-ii](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0063-unique-paths-ii) |
 | [0074-search-a-2d-matrix](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0200-number-of-islands) |
 | [0417-pacific-atlantic-water-flow](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0417-pacific-atlantic-water-flow) |
 | [0695-max-area-of-island](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0695-max-area-of-island) |
@@ -286,6 +289,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0100-same-tree) |
 | [0101-symmetric-tree](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0101-symmetric-tree) |
@@ -363,6 +367,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0046-permutations](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0078-subsets) |
+| [0079-word-search](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0090-subsets-ii) |
 | [0113-path-sum-ii](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0113-path-sum-ii) |
 ## Bit Manipulation
