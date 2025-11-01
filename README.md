@@ -68,6 +68,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1171-shortest-path-in-binary-matrix](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | [2058-concatenation-of-array](https://github.com/sanghunlee-711/leetcode-solving/tree/master/2058-concatenation-of-array) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/sanghunlee-711/leetcode-solving/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Greedy
 |  |
 | ------- |
@@ -161,6 +162,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0062-unique-paths](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0070-climbing-stairs) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/sanghunlee-711/leetcode-solving/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Memoization
 |  |
 | ------- |
@@ -341,6 +343,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0424-longest-repeating-character-replacement](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0424-longest-repeating-character-replacement) |
 | [0567-permutation-in-string](https://github.com/sanghunlee-711/leetcode-solving/tree/master/0567-permutation-in-string) |
 | [1023-time-based-key-value-store](https://github.com/sanghunlee-711/leetcode-solving/tree/master/1023-time-based-key-value-store) |
+| [3581-the-two-sneaky-numbers-of-digitville](https://github.com/sanghunlee-711/leetcode-solving/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 ## Breadth-First Search
 |  |
 | ------- |
